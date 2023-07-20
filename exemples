@@ -1,0 +1,29 @@
+
+'''
+x=10
+print(x==10)
+print(x!=10)
+print(x!=11)
+print(x==10)
+
+x=10
+x= x+1
+x+=2
+x-=1
+x*=3
+x/=4
+print(x)
+'''
+
+# neasted if
+
+x=600
+if x<200:
+    print('x<200')
+    if x==150:
+        print('150')
+    elif x==50:
+        print('50')
+elif x>500:
+    print('x>500')
+print('End')
