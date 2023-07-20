@@ -16,8 +16,8 @@ print(x)
 '''
 
 # neasted if
-
-x=600
+'''
+x=100
 if x<200:
     print('x<200')
     if x==150:
@@ -27,3 +27,12 @@ if x<200:
 elif x>500:
     print('x>500')
 print('End')
+'''
+'''
+U='anas'
+P=1111
+if U=='anas' and P==1111 :
+    print(True)
+if U=='anas' or P==11111 :
+    print(False)
+'''
