@@ -36,3 +36,17 @@ if U=='anas' and P==1111 :
 if U=='anas' or P==11111 :
     print(False)
 '''
+
+'''
+for x in {'ahmad':18,'ali':56,'hasan':40,'mohamad':25}:
+    print(x)
+'''
+'''
+print (list(range(10)))
+print (list(range(2,10,)))
+print (list(range(2,10,3)))
+'''
+'''
+for x in range (1,11,1):
+    print(x)
+'''
