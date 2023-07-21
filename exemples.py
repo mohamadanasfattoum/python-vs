@@ -56,3 +56,15 @@ while x<11:
     print(x,'\t',x**2,'\t',x**3)
     x+=1
 '''
+
+start= int(input('Enter Start: ' ))
+end= int(input('Enter End: ' ))
+
+print('Numbers,\t,result')
+print('-------------------')
+for x in range(start,end+1):
+    print(x,'\t',x**2,'\t',x**3)
+
+
+
+
