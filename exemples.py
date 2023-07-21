@@ -50,3 +50,9 @@ print (list(range(2,10,3)))
 for x in range (1,11,1):
     print(x)
 '''
+'''
+x=1
+while x<11:
+    print(x,'\t',x**2,'\t',x**3)
+    x+=1
+'''
