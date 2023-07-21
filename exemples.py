@@ -56,7 +56,7 @@ while x<11:
     print(x,'\t',x**2,'\t',x**3)
     x+=1
 '''
-
+'''
 start= int(input('Enter Start: ' ))
 end= int(input('Enter End: ' ))
 
@@ -64,7 +64,17 @@ print('Numbers,\t,result')
 print('-------------------')
 for x in range(start,end+1):
     print(x,'\t',x**2,'\t',x**3)
-
-
-
+'''
+'''
+for x in range (1,101):
+    if x % 5==0 and x%10==0:
+        print(x)
+'''
+'''
+def division(x,y):
+    for n in range (1,101):
+        if n%x ==0 and n%y ==0 :
+            print(n)
+division(5,10)
+'''
 
