@@ -123,3 +123,7 @@ def my_n(x,y):
 result= (reduce(my_n,numbers))
 print(result)
 '''
+
+def mysum(x,y):
+    print (x+y)
+mysum(5,15)

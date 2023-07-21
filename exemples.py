@@ -77,4 +77,13 @@ def division(x,y):
             print(n)
 division(5,10)
 '''
+'''
+def mysum(x,y):
+    return x+y
+b=mysum(5,15)
+print(b)
+'''
 
+mysum = lambda x,y : x+y
+a=mysum(5,10)
+print(a)
