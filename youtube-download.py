@@ -15,10 +15,23 @@ link = input("Enter the YouTube video URL: ")
 Download(link)
 '''
 
-from __future__ import unicode_literals
-import youtube_dl
-import urllib
-import shutil
-ydl_opts = {}
-with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-    ydl.download(['https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&ab_channel=CoreySchafer'])
+
+from pytube import YouTube
+
+# Enter the URL of the YouTube video you want to download
+video_url = "https://www.youtube.com/watch?v=o9l1TOxYxGY&ab_channel=OmarFatoom"
+
+try:
+    # Create a YouTube object with the video URL
+    yt = YouTube(video_url)
+
+    # Get the highest resolution stream
+    stream = yt.streams.get_highest_resolution()
+
+    # Download the video
+    print("Downloading video...")
+    stream.download()
+    print("Video downloaded successfully!")
+
+except Exception as e:
+    print("An error occurred while downloading the video:", str(e))
