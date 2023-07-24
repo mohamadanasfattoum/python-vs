@@ -15,7 +15,7 @@ link = input("Enter the YouTube video URL: ")
 Download(link)
 '''
 
-
+'''
 from pytube import YouTube
 
 # Enter the URL of the YouTube video you want to download
@@ -35,3 +35,21 @@ try:
 
 except Exception as e:
     print("An error occurred while downloading the video:", str(e))
+'''
+# with youtube_dl
+
+import youtube_dl
+
+def download_video(url):
+    try:
+        ydl_opts = {}
+        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+            ydl.download([])
+        print("Video downloaded successfully!")
+
+    except Exception as e:
+        print("Error:", str(e))
+
+# Example usage
+video_url = "https://www.youtube.com/watch?v=QD6EeYXlGLY&ab_channel=OmarFatoom"
+download_video(video_url)
