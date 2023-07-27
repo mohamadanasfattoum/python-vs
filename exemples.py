@@ -83,7 +83,14 @@ def mysum(x,y):
 b=mysum(5,15)
 print(b)
 '''
-
+'''
 mysum = lambda x,y : x+y
 a=mysum(5,10)
 print(a)
+'''
+
+text= 'anas s a python developer , he is 25 years old'
+x= text.split(',') # jede Seite von komma wird in string nur wenn komma im text drin ist.
+x= text.split(' ') # jedes Wort  wird in string mit komma
+print(x) 
+'''
