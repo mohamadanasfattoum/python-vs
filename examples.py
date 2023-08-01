@@ -98,7 +98,14 @@ print(x)
 numbers=[1,2,3,4,5,6]
 #*z,x,y=numbers
 #print(z,x,y)
-
+'''
 *_,x,y=numbers
 print(*_,x,y)
 print(x,y)
+
+'''
+'''
+for _ in range (10):
+    print(_)
+
+'''
