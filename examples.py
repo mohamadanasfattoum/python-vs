@@ -109,5 +109,10 @@ for _ in range (10):
     print(_)
 
 '''
+'''
 for x,y in enumerate(['anas','ali','ahmad']):
-    print(f'{x} {y}\t:welcom')
+    if x == 2:
+        print('-----')
+
+    print(f'{x} {y}\t:welcome')
+'''
