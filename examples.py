@@ -119,10 +119,12 @@ for x,y in enumerate(['anas','ali','ahmad']):
 
 #docs & comments 
 #explain
+'''
+
 class Calc:
-    ''' clacc of Calc def x+y '''
+    
     def sum(self,x,y):
-        ''' input x&y '''
+        
                                                                                                                                                                                           
         return x+y
 x= int(input('EnterX: ')) # FIX #BUG #TODO
@@ -130,3 +132,17 @@ y= int(input('EnterY: '))
 c = Calc()
 print(c.sum(x,y))
 print(help(Calc))
+
+'''
+#list comprehension
+
+names = ['anas','ali','omar','mahmoud']
+length = []
+def length_name():
+    for x in names:
+        length.append(len(x))
+    print(length) 
+length_name()
+
+result = [len(x) for x in names]
+print(result)
