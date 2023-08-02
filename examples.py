@@ -116,3 +116,17 @@ for x,y in enumerate(['anas','ali','ahmad']):
 
     print(f'{x} {y}\t:welcome')
 '''
+
+#docs & comments 
+#explain
+class Calc:
+    ''' clacc of Calc def x+y '''
+    def sum(self,x,y):
+        ''' input x&y '''
+                                                                                                                                                                                          
+        return x+y
+x= int(input('EnterX: ')) # FIX #BUG #TODO
+y= int(input('EnterY: '))
+c = Calc()
+print(c.sum(x,y))
+print(help(Calc))
