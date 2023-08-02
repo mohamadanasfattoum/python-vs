@@ -140,9 +140,13 @@ names = ['anas','ali','omar','mahmoud']
 length = []
 def length_name():
     for x in names:
-        length.append(len(x))
+        if len(x)>3 and x in names:
+            length.append(x)
     print(length) 
 length_name()
 
 result = [len(x) for x in names]
 print(result)
+
+result2 = [x for x in names if len(x)>3]
+print(result2)
