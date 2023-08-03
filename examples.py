@@ -168,6 +168,7 @@ numbers = list(range(1,11))
 result = map(mul,numbers)
 print(list(result))
 '''
+'''
 def length(n):
     if len(n)>=4:
         return len(n)
@@ -184,3 +185,51 @@ def length(n):
 names= ['anas','ali','omar','mahmoud']
 result = map(length,names)
 print (list (result))
+
+''' 
+'''
+names= ['anas','ali','omar','mahmoud']
+result = map(lambda n :len(n),names)
+print (list (result))
+'''
+
+##1 return n with filter
+def length(n):
+    if len(n)>=4:
+        return n
+
+names= ['anas','ali','omar','mahmoud']
+result = filter(length,names)
+print (list (result))
+
+##2 return n with map
+def length(n):
+    if len(n)>=4:
+        return n
+
+names= ['anas','ali','omar','mahmoud']
+result = map(length,names)
+print (list (result))
+
+print('----------------------')
+
+
+##3 return len(n) with filter
+def length(n):
+    if len(n)>=4:
+        return len(n)
+
+names= ['anas','ali','omar','mahmoud']
+result = filter(length,names)
+print (list (result))
+
+##4 return len(n) with map
+def length(n):
+    if len(n)>=4:
+        return len(n)
+
+names= ['anas','ali','omar','mahmoud']
+result = map(length,names)
+print (list (result))
+
+print('----------------------')
