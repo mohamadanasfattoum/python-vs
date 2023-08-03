@@ -132,7 +132,7 @@ y= int(input('EnterY: '))
 c = Calc()
 print(c.sum(x,y))
 print(help(Calc))
-
+'''
 '''
 #list comprehension
 
@@ -150,3 +150,18 @@ print(result)
 
 result2 = [x for x in names if len(x)>3]
 print(result2)
+'''
+
+
+
+
+
+
+
+# map
+def mul(n):
+    return n*2
+numbers = list(range(1,11))
+
+result = map(mul,numbers)
+print(list(result))

@@ -24,7 +24,7 @@ number()
 '''
 
 
-
+'''
 def number():
     odd=[]
     even=[]
@@ -41,18 +41,21 @@ def number():
     print(f'in even numbers{even}')
     print(f'in odd numbers{odd}')
 number()
+'''
+
+'''
+even = [ n for n in list(range (1,101)) if n%2==0]
+print(even)
 
 
+odd= [ n for n in list(range (1,101)) if n%2!=0]
+print(odd)
+'''
 
+# map
+def mul(n):
+    return n*2
+numbers = list(range(1,11))
 
-
-#odd=[]
-#even=[]
-
-
-#number=lambda  
-
-
-
-
-#number()
+result = map(mul,numbers)
+print(list(result))
