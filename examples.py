@@ -159,9 +159,28 @@ print(result2)
 
 
 # map
+
+'''
 def mul(n):
     return n*2
 numbers = list(range(1,11))
 
 result = map(mul,numbers)
 print(list(result))
+'''
+def length(n):
+    if len(n)>=4:
+        return len(n)
+
+names= ['anas','ali','omar','mahmoud']
+result = map(length,names)
+print (list (result))
+
+
+def length(n):
+    if len(n)>=4:
+        return n
+
+names= ['anas','ali','omar','mahmoud']
+result = map(length,names)
+print (list (result))
