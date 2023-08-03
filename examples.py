@@ -192,7 +192,7 @@ names= ['anas','ali','omar','mahmoud']
 result = map(lambda n :len(n),names)
 print (list (result))
 '''
-
+'''
 ##1 return n with filter
 def length(n):
     if len(n)>=4:
@@ -227,9 +227,18 @@ print (list (result))
 def length(n):
     if len(n)>=4:
         return len(n)
+    
 
 names= ['anas','ali','omar','mahmoud']
 result = map(length,names)
 print (list (result))
 
 print('----------------------')
+'''
+from functools import reduce
+numbers= list(range(1,11))
+def add_sum(x,y):
+    return x+y
+print(reduce(add_sum,numbers))
+
+
