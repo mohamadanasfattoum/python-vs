@@ -244,7 +244,10 @@ print(reduce(add_sum,numbers))
 
 '''
 
-# set
+#Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+myset = {"apple", "banana", "cherry"}
+print(type(myset))
+
 
 
 
