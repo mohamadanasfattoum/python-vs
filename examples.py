@@ -243,12 +243,20 @@ def add_sum(x,y):
 print(reduce(add_sum,numbers))
 
 '''
-
+'''
 #Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
 myset = {"apple", "banana", "cherry"}
 print(type(myset))
 
+set1 = {"abc", 34, True, 40, "male"}
+print(set1)
+thisset = {"apple", "banana", "cherry"}
 
+print(len(thisset))
+thisset = set(("apple", "banana", "cherry"))
+print(thisset)
+# Note: the set list is unordered, so the result will display the items in a random order.
+'''
 
 
 
