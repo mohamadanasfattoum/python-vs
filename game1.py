@@ -52,10 +52,3 @@ odd= [ n for n in list(range (1,101)) if n%2!=0]
 print(odd)
 '''
 
-# map
-def mul(n):
-    return n*2
-numbers = list(range(1,11))
-
-result = map(mul,numbers)
-print(list(result))

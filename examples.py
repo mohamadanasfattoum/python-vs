@@ -235,10 +235,41 @@ print (list (result))
 
 print('----------------------')
 '''
+'''
 from functools import reduce
 numbers= list(range(1,11))
 def add_sum(x,y):
     return x+y
 print(reduce(add_sum,numbers))
 
+'''
 
+# set
+
+
+
+
+'''
+#The sorted() function returns a sorted list of the specified iterable object.
+#You can specify ascending or descending order. Strings are sorted alphabetically, and numbers are sorted numerically.
+x=[0,3,1,5,4,8,9]
+y=('a','c','b')
+a=sorted(y)
+print(a)
+'''
+'''
+a = ("h", "b", "a", "c", "f", "d", "e", "g")
+
+x = sorted(a, reverse=False)
+
+print(x)
+'''
+'''
+# reverse
+#The reverse() method reverses the sorting order of the elements.
+b = ["h", "b", "a", "c", "f", "d", "e", "g"]
+
+b.reverse()
+
+print(b)
+'''
