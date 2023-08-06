@@ -258,7 +258,13 @@ print(thisset)
 # Note: the set list is unordered, so the result will display the items in a random order.
 '''
 
-
+#set
+#issuperset
+a={1,2,3}
+b={1,2,3,4}
+c={1,2,3,4,5,6}
+print(b.issuperset(a)) # True
+print(b.issuperset(c)) # False
 
 '''
 #The sorted() function returns a sorted list of the specified iterable object.
