@@ -257,7 +257,7 @@ thisset = set(("apple", "banana", "cherry"))
 print(thisset)
 # Note: the set list is unordered, so the result will display the items in a random order.
 '''
-
+'''
 #set
 #issuperset
 a={1,2,3}
@@ -266,6 +266,14 @@ c={1,2,3,4,5,6}
 print(b.issuperset(a)) # True
 print(b.issuperset(c)) # False
 
+#issubset
+d={1,2,3}
+e={1,2,3,4}
+f={1,2,3,4,5,6}
+
+print(d.issubset(e)) # True
+print(f.issubset(e)) # False
+'''
 '''
 #The sorted() function returns a sorted list of the specified iterable object.
 #You can specify ascending or descending order. Strings are sorted alphabetically, and numbers are sorted numerically.
