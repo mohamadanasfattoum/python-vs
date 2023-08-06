@@ -298,3 +298,9 @@ b.reverse()
 
 print(b)
 '''
+#isupper
+a = 'I AM ANAS'
+b = 'i am anas 25'
+
+print(a.isupper())
+print(b.isupper())
