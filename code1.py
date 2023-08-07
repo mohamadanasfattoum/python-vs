@@ -18,6 +18,7 @@ def swap_case(s):
 
 print(swap_case(s = 'I Am Anas'))
 ''' 
+'''
 def count_substring(string, sub_string):
     x = 0
     while sub_string in string:
@@ -28,6 +29,7 @@ def count_substring(string, sub_string):
 a= count_substring(string='abcdefg', sub_string='de')
 print(a)
 '''
+'''
 def count_substring(string, sub_string):
     i = 0
     for i in range(len(string)):
@@ -36,3 +38,23 @@ def count_substring(string, sub_string):
     print(i)
 count_substring(string='abcdefg', sub_string='cdef')
 '''
+'''
+import textwrap
+
+text = (
+    'abcdefghigklm'
+)
+lines = textwrap.wrap(text,7)
+
+for line in lines:
+    print(line)
+'''
+# set_add()
+def set_add():
+    for i in range(n):
+        Country.add(input())
+    return len(Country)
+n = int(input())
+Country = set()
+c = set_add()
+print(c)
