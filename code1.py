@@ -49,6 +49,7 @@ lines = textwrap.wrap(text,7)
 for line in lines:
     print(line)
 '''
+'''
 # set_add()
 def set_add():
     for i in range(n):
@@ -58,3 +59,11 @@ n = int(input())
 Country = set()
 c = set_add()
 print(c)
+'''
+
+# hash()
+
+#the hash() method returns the hash value of an object if it has one. Hash values are just integers that are used to compare dictionary keys during a dictionary look quickly.
+
+a = 'i am anas'
+print (hash(a))
