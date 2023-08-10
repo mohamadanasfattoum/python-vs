@@ -101,6 +101,7 @@ for i in sorted(permutations(str1, int(int1))):
 '''
 
 #???
+'''
 import re
  
  
@@ -113,3 +114,7 @@ try:
 except re.error:
     print("Non valid regex pattern")
     exit()
+'''
+
+var=input()
+eval(var)
