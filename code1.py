@@ -91,9 +91,25 @@ input_B = list(map(int, input().split()))
 
 print(*list(product(input_A, input_B)))
 '''
-
+'''
+#str1 = x , int1=y
 from itertools import permutations
-str2, int2 = input().split()
+str1, int1 = input().split()
 
-for i in sorted(permutations(str2, int(int2))):
+for i in sorted(permutations(str1, int(int1))):
     print (''.join(i))
+'''
+
+#???
+import re
+ 
+ 
+# pattern is a string containing the regex pattern
+pattern = r"[.*"
+ 
+try:
+    re.compile(pattern)
+ 
+except re.error:
+    print("Non valid regex pattern")
+    exit()
