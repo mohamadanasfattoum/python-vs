@@ -91,3 +91,9 @@ input_B = list(map(int, input().split()))
 
 print(*list(product(input_A, input_B)))
 '''
+
+from itertools import permutations
+str2, int2 = input().split()
+
+for i in sorted(permutations(str2, int(int2))):
+    print (''.join(i))
