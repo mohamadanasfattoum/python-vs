@@ -68,6 +68,7 @@ print(c)
 a = 'i am anas'
 print (hash(a))
 '''
+'''
 def int_hash():
     n = int(input())
     result = map(int,input().split())
@@ -75,9 +76,18 @@ def int_hash():
     print(hash(t))
 
 int_hash()
-
+'''
 '''
 if __name__ == '__main__':
     n = int(input())
     result = map(int , input().split())
-    print (hash(tuple(result)))'''
+    print (hash(tuple(result)))
+    '''
+'''
+from itertools import product
+
+input_A = list(map(int, input().split()))
+input_B = list(map(int, input().split()))
+
+print(*list(product(input_A, input_B)))
+'''
