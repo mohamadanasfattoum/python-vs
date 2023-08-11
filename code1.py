@@ -120,9 +120,41 @@ var=input()
 eval(var)'''
 
 #  map and lambda problem solving
-
+'''
 print (list(map(len, ['Tina', 'Raj', 'Tom'])))  
 
 
 sum = lambda a, b, c: a + b + c
 print (sum(1, 2, 3))
+'''
+'''???
+cube = lambda x: x**3
+n = int(input())
+def fibonacci(n):
+    initiallist = []
+    for i in range(n):
+        if i < 2:
+            initiallist += [i]          
+        else:
+            initiallist += [initiallist[-1] + initiallist[-2]]
+    return initiallist
+print(map(cube, fibonacci(n)))
+'''
+'''
+a = int (input())
+b = int (input())
+m = int (input())
+c= a**b
+print(c)
+print(c**m)
+'''
+# pow()
+'''
+a = int (input())
+b = int (input())
+m = int (input())
+c= pow(a,b)
+print(c)
+print(pow(c,m))
+'''
+
