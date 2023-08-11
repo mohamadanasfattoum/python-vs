@@ -115,6 +115,14 @@ except re.error:
     print("Non valid regex pattern")
     exit()
 '''
-
+'''
 var=input()
-eval(var)
+eval(var)'''
+
+#  map and lambda problem solving
+
+print (list(map(len, ['Tina', 'Raj', 'Tom'])))  
+
+
+sum = lambda a, b, c: a + b + c
+print (sum(1, 2, 3))
