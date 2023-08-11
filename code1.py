@@ -155,6 +155,12 @@ b = int (input())
 m = int (input())
 c= pow(a,b)
 print(c)
-print(pow(c,m))
+print(pow(a,b,m))
 '''
+#أعد القيمة 4 إلى أس 3 ، المقياس 5 (مثل (4 * 4 * 4)٪ 5):
+x = pow(4,3,5)
+# 4*4*4/5
+print(x)
 
+c = pow(3,4,5)
+print(c)
